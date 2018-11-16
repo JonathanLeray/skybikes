@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="col-xs-12">
+    <img class="avatar" *ngIf="user.photo" [src]="user.photo">
+    <h4>Firstname : {{user.firstname}}</h4>
+    <h4>Lastname : {{user.lastname}}</h4>
+    <h4>Email : {{user.email}}</h4>
+    <h4>Emergency Phone Number : {{user.emergencyPhoneNumber}}</h4>
+    <h4>Profile : {{user.profile}}</h4>
+
+    <button class="btn btn-default" (click)="onBack()">Retour</button>
+  </div>
+</div>

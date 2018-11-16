@@ -1,0 +1,30 @@
+<div class="row">
+  <div class="col-xs-12">
+    <h2>Members</h2>
+    <div class="list-group">
+      <button class="list-group-item"
+              *ngFor="let user of users; let i = index"
+              (click)="onViewUser(i)">
+        <img src="{{user.photo}}"
+             class="avatar pull-left"
+             onerror="this.style.display = 'none'">
+        <span class="pull-left">
+          <h5>Firstname : {{user.firstname}}</h5>
+          <h5>Lastname : {{user.lastname}}</h5>
+          <h5>Email : {{user.email}}</h5>
+          <h5>Emergency Phone Number : {{user.emergencyPhoneNumber}}</h5>
+          <h5>Profile : {{user.profile}}</h5>
+        </span>
+        <h3 class="list-group-item-heading">
+          {{ user.title }}
+          <button class="btn btn-danger pull-right" (click)="onDeleteUser(user)">
+            <span class="fa fa-trash-o fa-1_5x"></span>
+            <span class="h4"> Remove this user</span>
+          </button>
+        </h3>
+        <p class="list-group-item-text">{{ user.author }}</p>
+      </button>
+    </div>
+    <button class="btn btn-primary" (click)="onNewUser()">New member</button>
+  </div>
+</div>

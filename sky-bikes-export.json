@@ -1,0 +1,242 @@
+{
+  "bikes" : [ {
+    "color" : "#4B0082",
+    "comment" : "This bike is Dark Purple",
+    "id" : "21mmciwufu8ykg9l"
+  }, {
+    "color" : "#0000FF",
+    "comment" : "This bike is Blue",
+    "id" : "k5y419j7guxa9b1n"
+  }, {
+    "color" : "#00FF00",
+    "comment" : "This bike is Green",
+    "id" : "uqmt7df0l4iwqqz5"
+  }, {
+    "color" : "#FFFF00",
+    "comment" : "This bike is Yellow",
+    "id" : "dp0cs254uic8pobh"
+  }, {
+    "color" : "#FF7F00",
+    "comment" : "This bike is Orange",
+    "id" : "yv8jx2trjuonlanw"
+  }, {
+    "color" : "#FF0000",
+    "comment" : "This bike is Red",
+    "id" : "tk142o28isn2ieed"
+  }, {
+    "color" : "#9400D3",
+    "comment" : "This bike is Purple",
+    "id" : "ays1xl97b387nifa"
+  }, {
+    "color" : "#4B0082",
+    "comment" : "This bike is Dark Purple",
+    "id" : "5cjtgzcmfa36ec6c"
+  }, {
+    "color" : "#0000FF",
+    "comment" : "This bike is Blue",
+    "id" : "hl6r6fewkih14z5y"
+  }, {
+    "color" : "#00FF00",
+    "comment" : "This bike is Green",
+    "id" : "wixdxpq5dl3991hy"
+  }, {
+    "color" : "#FFFF00",
+    "comment" : "This bike is Yellow",
+    "id" : "acyq31bh8z5zfuzx"
+  }, {
+    "color" : "#FF7F00",
+    "comment" : "This bike is Orange",
+    "id" : "za90m73rg9ujjm4t"
+  }, {
+    "color" : "#FF0000",
+    "comment" : "This bike is Red",
+    "id" : "gr6b9zv8sm2e4prn"
+  }, {
+    "color" : "#9400D3",
+    "comment" : "This bike is Purple",
+    "id" : "ytw4tn3xq49sj69p"
+  }, {
+    "color" : "#4B0082",
+    "comment" : "This bike is Dark Purple",
+    "id" : "eolm74w5w9xwyjgu"
+  }, {
+    "color" : "#0000FF",
+    "comment" : "This bike is Blue",
+    "id" : "m7bzj3u1g7q403ti"
+  }, {
+    "color" : "#00FF00",
+    "comment" : "This bike is Green",
+    "id" : "ufpaetpsjmhwjbdf"
+  }, {
+    "color" : "#FFFF00",
+    "comment" : "This bike is Yellow",
+    "id" : "ic198zc7y3wg948j"
+  }, {
+    "color" : "#FF7F00",
+    "comment" : "This bike is Orange",
+    "id" : "fjffj6ay881ezdr8"
+  }, {
+    "color" : "#FF0000",
+    "comment" : "This bike is Red",
+    "id" : "nu2989auvgzvsp07"
+  }, {
+    "color" : "#9400D3",
+    "comment" : "This bike is Purple",
+    "id" : "hn6n7s3krnhuim1k"
+  } ],
+  "stations" : [ {
+    "id" : "o7dd9d7ja654adsa",
+    "lat" : 45.5016889,
+    "long" : -73.567256,
+    "name" : "LIONEL-GROULX"
+  }, {
+    "id" : "46asdf5a46s5f465",
+    "lat" : 45.5016889,
+    "long" : -73.567256,
+    "name" : "GEORGES-VANIER"
+  }, {
+    "id" : "654q65w654654d6q",
+    "lat" : 45.5016889,
+    "long" : -73.567256,
+    "name" : "LUCIEN-L'ALLIER"
+  }, {
+    "id" : "6qwe4565465q4we6",
+    "lat" : 45.5016889,
+    "long" : -73.567256,
+    "name" : "BONAVENTURE"
+  }, {
+    "id" : "sd65dfs654d656sf",
+    "lat" : 45.5016889,
+    "long" : -73.567256,
+    "name" : "SQUARE-VICTORIA–OACI"
+  }, {
+    "id" : "o32s1df321s32f9q",
+    "lat" : 45.5016889,
+    "long" : -73.567256,
+    "name" : "PLACE-D'ARMES"
+  }, {
+    "id" : "lkjsd564sd646d65",
+    "lat" : 45.5016889,
+    "long" : -73.567256,
+    "name" : "CHAMP-DE-MARS"
+  }, {
+    "id" : "lkl565sd6s654f6s",
+    "lat" : 45.5016889,
+    "long" : -73.567256,
+    "name" : "BERRI-UQAM"
+  }, {
+    "id" : "65as465asf654saf",
+    "lat" : 45.5016889,
+    "long" : -73.567256,
+    "name" : "SHERBROOKE"
+  }, {
+    "id" : "65as4654as6fas54",
+    "lat" : 45.5016889,
+    "long" : -73.567256,
+    "name" : "MONT-ROYAL"
+  }, {
+    "id" : "654sd654df654dfs",
+    "lat" : 45.5016889,
+    "long" : -73.567256,
+    "name" : "LAURIER"
+  }, {
+    "id" : "33s23fas35adsg32",
+    "lat" : 45.5016889,
+    "long" : -73.567256,
+    "name" : "ROSEMONT"
+  }, {
+    "id" : "654ds66s54df4a6d",
+    "lat" : 45.5016889,
+    "long" : -73.567256,
+    "name" : "BEAUBIEN"
+  }, {
+    "id" : "6s5d4684cd684ds6",
+    "lat" : 45.5016889,
+    "long" : -73.567256,
+    "name" : "JEAN-TALON"
+  }, {
+    "id" : "6s5fd4g65sf46sa5",
+    "lat" : 45.5016889,
+    "long" : -73.567256,
+    "name" : "JARRY"
+  }, {
+    "id" : "kljdhfa564daf65s",
+    "lat" : 45.5016889,
+    "long" : -73.567256,
+    "name" : "CRÉMAZIE"
+  }, {
+    "id" : "ksaf543dfa546fsa",
+    "lat" : 45.5016889,
+    "long" : -73.567256,
+    "name" : "SAUVÉ"
+  }, {
+    "id" : "43fs3d54351cs2ss",
+    "lat" : 45.5016889,
+    "long" : -73.567256,
+    "name" : "HENRI-BOURASSA"
+  }, {
+    "id" : "lkj5ds8564sd5df5",
+    "lat" : 45.5016889,
+    "long" : -73.567256,
+    "name" : "CARTIER"
+  }, {
+    "id" : "aa2dsf68ads564f6",
+    "lat" : 45.5016889,
+    "long" : -73.567256,
+    "name" : "DE LA CONCORDE ASCENSEURS DISPONIBLES"
+  }, {
+    "id" : "a6sd5f466asd65f4",
+    "lat" : 45.5016889,
+    "long" : -73.567256,
+    "name" : "MONTMORENCY"
+  } ],
+  "users" : [ {
+    "email" : "jonathan@admin.com",
+    "emergencyPhoneNumber" : "5141231664",
+    "firstname" : "Jonathan",
+    "id" : "pu0n71a47vdvo84s",
+    "lastname" : "Admin",
+    "photo" : "https://firebasestorage.googleapis.com/v0/b/sky-bikes.appspot.com/o/images%2F15423307501070.jpg?alt=media&token=12c16155-044b-47e5-821d-21393e4b6462",
+    "profile" : "admin"
+  }, {
+    "email" : "jonathan@member.com",
+    "emergencyPhoneNumber" : "5141231664",
+    "firstname" : "Jonathan",
+    "id" : "2horseh2knv113hh",
+    "lastname" : "Member",
+    "photo" : "https://firebasestorage.googleapis.com/v0/b/sky-bikes.appspot.com/o/images%2F15423308241990.jpg?alt=media&token=1ddb9fcb-f62a-4cc3-b9d5-6fe5a58744e1",
+    "profile" : "member"
+  }, {
+    "email" : "marc@admin.com",
+    "emergencyPhoneNumber" : "5141234567",
+    "firstname" : "Marc",
+    "id" : "ih7jarkc0hkwcw6d",
+    "lastname" : "Admin",
+    "photo" : "https://firebasestorage.googleapis.com/v0/b/sky-bikes.appspot.com/o/images%2F1542330894353marc.jpg?alt=media&token=c0a78a3a-e645-4177-9734-0c50df0a58ef",
+    "profile" : "admin"
+  }, {
+    "email" : "marc@member.com",
+    "emergencyPhoneNumber" : "5141234567",
+    "firstname" : "Marc",
+    "id" : "r96wimipd99mav73",
+    "lastname" : "Member",
+    "photo" : "https://firebasestorage.googleapis.com/v0/b/sky-bikes.appspot.com/o/images%2F1542330974746marc.jpg?alt=media&token=f4e034b0-363d-4663-ad58-8d4da0a085de",
+    "profile" : "member"
+  }, {
+    "email" : "denis@admin.com",
+    "emergencyPhoneNumber" : "5147654321",
+    "firstname" : "Denis",
+    "id" : "7z4wbt9jdvylztao",
+    "lastname" : "Admin",
+    "photo" : "https://firebasestorage.googleapis.com/v0/b/sky-bikes.appspot.com/o/images%2F1542331048369denis.jpg?alt=media&token=7bada694-3277-4833-bb93-c96e5760ccec",
+    "profile" : "admin"
+  }, {
+    "email" : "denis@member.com",
+    "emergencyPhoneNumber" : "5147654321",
+    "firstname" : "Denis",
+    "id" : "qyv7uiokp1i82eu6",
+    "lastname" : "Member",
+    "photo" : "https://firebasestorage.googleapis.com/v0/b/sky-bikes.appspot.com/o/images%2F1542331101697denis.jpg?alt=media&token=2d445235-1100-4301-941c-0c66cd413ad3",
+    "profile" : "member"
+  } ]
+}

@@ -1,0 +1,24 @@
+<div class="row">
+  <div class="col-sm-8 col-sm-offset-2">
+    <h2>Add new bike</h2>
+    <form [formGroup]="bikeForm" (ngSubmit)="onSaveBike()">
+      <div class="form-group">
+        <label for="color">Color</label>
+        <select type="text" id="color"  [style.backgroundColor]="bikeForm.get('color').value"
+               class="form-control" formControlName="color">
+          <option *ngFor="let color of colors" [value]="color.hexadecimal" [style.backgroundColor]="color.hexadecimal">
+            {{color.name}}
+          </option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="comment">Comment</label>
+        <textarea type="text" id="comment" maxlength="300"
+                  class="form-control" formControlName="comment"></textarea>
+      </div>
+      <button class="btn btn-success" [disabled]="bikeForm.invalid"
+              type="submit">Save
+      </button>
+    </form>
+  </div>
+</div>

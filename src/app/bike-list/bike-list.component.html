@@ -1,0 +1,53 @@
+<div class="row">
+  <div class="col-xs-12">
+    <h2>Bikes</h2>
+    <div class="list-group">
+      <button class="list-group-item"
+              *ngFor="let bike of bikes; let i = index"
+              (click)="onViewBike(i)">
+        <h3 class="list-group-item-heading">
+          <i routerLink="bikes" class="fa fa-bicycle fa-2x pull-left" [style.color]="bike.color"></i>
+          <span class="rentTimeRemaining pull-left" *ngIf="bike.renterDate && !isLateReturn(bike)">
+            This bike is rented by <b>
+            {{bike.renterId === authService.currentUser.id ? 'you' :
+              usersService.getSingleUserByIdCache(bike.renterId).firstname + ' ' +
+              usersService.getSingleUserByIdCache(bike.renterId).lastname}}
+            </b> for
+            <b>{{rentTimeRemaining(bike).hour}}</b> Hours
+            <b>{{rentTimeRemaining(bike).min}}</b> Minutes
+          </span>
+          <span class="rentTimeRemaining error pull-left" *ngIf="bike.renterDate && isLateReturn(bike)">
+            This bike must have been return by <b>
+            {{bike.renterId === authService.currentUser.id ? 'you' :
+              usersService.getSingleUserByIdCache(bike.renterId).firstname + ' ' +
+              usersService.getSingleUserByIdCache(bike.renterId).lastname}}
+            </b> for
+            <b>{{rentTimeRemaining(bike).hour}}</b> Hours
+            <b>{{rentTimeRemaining(bike).min}}</b> Minutes
+          </span>
+          <button class="btn btn-danger pull-right" (click)="onDeleteBike(bike)"
+                  *ngIf="authService.currentUser.profile === 'admin'">
+            <span class="fa fa-trash-o fa-1_5x"></span>
+            <span class="h4"> Remove this bike</span>
+          </button>
+          <button class="btn btn-success pull-right" (click)="onRentBike(bike)"
+                  *ngIf="!bike.renterDate && !bikeService.getRentByUserId(authService.currentUser.id) &&
+                         authService.currentUser.profile === 'member'">
+            <span class="fa fa-sign-out fa-1_5x"></span>
+            <span class="h4"> Rent this bike</span>
+          </button>
+          <button class="btn btn-info pull-right" (click)="onReturnBike(bike)"
+                  *ngIf="bike.renterDate && bike.renterId === authService.currentUser.id &&
+                         authService.currentUser.profile === 'member'">
+            <span class="fa fa-sign-in fa-1_5x"></span>
+            <span class="h4"> Return this bike</span>
+          </button>
+          <span class="h4 col-xs-12">
+           Comment : {{bike.comment}}
+          </span>
+        </h3>
+      </button>
+    </div>
+    <button class="btn btn-primary" (click)="onNewBike()">New bike</button>
+  </div>
+</div>

@@ -1,0 +1,36 @@
+<nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li routerLinkActive="active">
+        <a routerLink="bikes" class=" fa fa-bicycle fa-3x"></a>
+      </li>
+      <li routerLinkActive="active">
+        <a routerLink="stations" class="fa fa-map-o fa-2x"></a>
+      </li>
+      <li routerLinkActive="active" *ngIf="authService.currentUser.profile === 'admin'">
+        <a routerLink="users" class="fa fa-users fa-2x"></a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li routerLinkActive="active" *ngIf="!authService.isAuth">
+        <a routerLink="auth/signup">Créer un compte</a>
+      </li>
+      <li routerLinkActive="active" *ngIf="!authService.isAuth">
+        <a routerLink="auth/signin">Connexion</a>
+      </li>
+      <li *ngIf="authService.isAuth">
+        <img src="{{authService.currentUser.photo}}"
+             class="avatar"
+             onerror="this.style.display = 'none'">
+      </li>
+      <li *ngIf="authService.isAuth">
+        <a>{{authService.currentUser.firstname}} {{authService.currentUser.lastname}}</a>
+      </li>
+      <li>
+        <a (click)="onSignOut()"
+           class="btn"
+           *ngIf="authService.isAuth">Sign out</a>
+      </li>
+    </ul>
+  </div>
+</nav>

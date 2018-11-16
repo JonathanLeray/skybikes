@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-xs-12">
+    <h2>Stations</h2>
+    <div class="list-group">
+      <button class="list-group-item"
+              *ngFor="let station of stations; let i = index"
+              (click)="onViewStation(i)">
+        <span class="pull-left">
+          <h5>Name : {{station.name}}</h5>
+          <h5>Latitude : {{station.lat}}</h5>
+          <h5>Longitude : {{station.long}}</h5>
+        </span>
+        <h3 class="list-group-item-heading">
+          {{ station.title }}
+          <button class="btn btn-danger pull-right" (click)="onDeleteStation(station)">
+            <span class="fa fa-trash-o fa-1_5x"></span>
+            <span class="h4"> Remove this station</span>
+          </button>
+        </h3>
+        <p class="list-group-item-text">{{ station.author }}</p>
+      </button>
+    </div>
+    <button class="btn btn-primary" (click)="onNewStation()">New station</button>
+  </div>
+</div>
